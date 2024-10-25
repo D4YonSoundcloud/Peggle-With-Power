@@ -12,6 +12,7 @@ peggle-clone/
 │   ├── ball.ts
 │   ├── peg.ts
 │   ├── launcher.ts
+│   ├── ghostLauncher.ts
 │   ├── utils.ts
 │   ├── uiControls.ts
 │   ├── levelFormations.ts
@@ -37,16 +38,17 @@ Run `npm run build` to build the project for production. The built files will be
 
 - Peggle-like gameplay with ball and peg collisions
 - Ball trajectory prediction
+- Ghost launcher preview for next shot
 - User interface controls for adjusting:
   - Ball gravity
   - Ball friction
   - Bounce impulse
 - Reset button to restore default physics values
-- 5 different level:
+- 5 different levels:
   1. Classic Grid
-  2. Diamond 
-  3. Circular 
-  4. Zigzag 
+  2. Diamond
+  3. Circular
+  4. Zigzag
   5. Sparse Triangle
 - Press 'N' key to switch to the next level
 
@@ -55,5 +57,6 @@ Run `npm run build` to build the project for production. The built files will be
 - Use your mouse to aim the launcher
 - Click to launch the ball
 - Try to hit as many pegs as possible
+- When ball is in play, move mouse to see ghost launcher and predicted trajectory for next shot
 - Adjust the ball's physics properties using the UI controls
-- Press 'N' to switch to the next level formation
+- Press 'N' to switch to the next level
